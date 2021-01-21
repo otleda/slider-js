@@ -15,17 +15,12 @@
 // Tagged Template String
 const root = document.querySelector('#root');
 const textTitle = 'Difficulty';
-const pathPokemon = '../imgs/01.svg';
 
-const title = Title `
-    ${textTitle};
-    color: #9b59b6;
-    font-family: 'Rubik', sans-serif;
+const title = Title`
+color: #9b59b6;
+font-family: 'Rubik', sans-serif;
+${textTitle};
 `
 
-const pokemon = Character `
-    ${pathPokemon};
-    width: 80px;
-`
 root.insertAdjacentHTML('beforeend', title);
-root.insertAdjacentHTML('beforeend', pokemon);
+root.insertAdjacentHTML('beforeend', wappers);

@@ -22,7 +22,6 @@ body, html{
     width: 70vw;
     max-width: 600px;
     height: 45vh;
-    padding: 1em;
     background: #2c3e50;
     border: 5px solid #9b59b6;
     border-radius: 5px;
