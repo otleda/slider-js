@@ -2,7 +2,8 @@ const css =`
 <style>
 :root {
     --line-height: 10px;
-    --color-bar: #07ffae;
+    --color-bar: #9b59b6;
+    --color-ball: #c1a6cb;
 }
 
 * {
